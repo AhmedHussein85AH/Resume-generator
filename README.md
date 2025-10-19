@@ -10,6 +10,7 @@
   [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-1.4.6-38B2AC.svg)](https://tailwindcss.com/)
   [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-brightgreen.svg)](#live-demo)
 </div>
+<img width="819" height="410" alt="Screenshot 2025-10-19 145431" src="https://github.com/user-attachments/assets/eb85e870-7ce0-40b3-8c8e-edf1e75ebcb5" />
 
 ## 🚀 Live Demo
 
