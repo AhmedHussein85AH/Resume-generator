@@ -1,183 +1,232 @@
-<img src="https://raw.githubusercontent.com/AhmedHussein85AH/Resume-generator/main/public/images/Resume-generator.png" width="256px" />
+# 📄 Resume Generator
 
-## A free and open source resume builder.
+<div align="center">
+  <img src="public/images/icons/icon-192x192.png" width="128px" alt="Resume Generator Logo" />
+  
+  **A modern, professional resume builder with advanced features**
+  
+  [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+  [![React](https://img.shields.io/badge/React-16.13.1-blue.svg)](https://reactjs.org/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-1.4.6-38B2AC.svg)](https://tailwindcss.com/)
+  [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-brightgreen.svg)](#live-demo)
+</div>
 
-[![GitHub](https://img.shields.io/github/license/AhmedHussein85AH/Resume-generator)](https://github.com/AhmedHussein85AH/Resume-generator/blob/main/LICENSE)
+## 🚀 Live Demo
 
-### [Go to App](https://AhmedHussein85AH.github.io/Resume-generator/)
+**[Try the Resume Generator Now](https://your-username.github.io/Resume-generator/)**
 
-To test the application, click the link above, and from the dropdown menu in right panel, select "Actions", and then scroll down and click on "Load Data" button to load demo data.
+> **Note**: Click on the sidebar menu, go to "Actions" tab, and click "Load Demo Data" to see the application with sample data.
 
-### What is this app all about?
+## ✨ Features
 
-Resume-generator is a free and open source resume builder that's built to make the mundane tasks of creating, updating and sharing your resume as easy as 1, 2, 3. With this app, you can create resumes that are readable and indexable by all machine learning algorithms and systems easily and accurately, print as PDF (single-page or multi-page), all for free, no advertisements, without losing the integrity and privacy of your data.
+### 🎯 **Core Functionality**
+- **Real-time Resume Building** - See changes instantly as you type
+- **Professional Templates** - Multiple modern resume layouts
+- **Customizable Design** - Colors, fonts, and layouts
+- **Multi-language Support** - Built-in internationalization
+- **Responsive Design** - Works perfectly on all devices
 
-You have complete control over what goes into your resume, how it looks, what colors, what templates, even the layout in which sections placed. Want a dark mode resume? It’s as easy as editing 3 values and you’re done. You don’t need to wait to see your changes either. Everything you type, everything you change, appears immediately on your resume and gets updated in real time.
+### 📊 **Advanced Analytics**
+- **Word Count Tracking** - Monitor resume content length
+- **Completion Percentage** - Track resume completeness
+- **Progress Indicators** - Visual progress bars and tips
+- **Real-time Updates** - Analytics update as you edit
 
-### Features
+### 💾 **Export & Import**
+- **Multiple Formats** - PDF, Word, HTML, and JSON export
+- **One-Click Import** - Load existing resume data
+- **Version Control** - Resume history and backup system
+- **Auto-save** - Never lose your work
 
-- Create a readable resume for all machine learning algorithms
-- Choose from 6 vibrant templates and more coming soon
-- Structure sections and change layouts the way you want to
-- Rename sections according to your language/industry
-- Mix and match colors to any degree, even a dark mode resume?
-- Pick from a variety of crisp and clear fonts
-- Easy to translate to your own language
-- Import your existing structured data resume in one click
-- No advertisements, no data sharing, no marketing emails
-- **Everything is free, and there’s no catch!**
+### 🎨 **Professional Design**
+- **Modern UI** - Clean, intuitive interface
+- **Sidebar Navigation** - Easy access to all features
+- **Pin & Minimize** - Flexible sidebar controls
+- **Keyboard Shortcuts** - Power user features
+- **Dark Mode Ready** - Professional appearance
 
-### Screenshots
+## 🛠️ Technology Stack
 
-<img src="https://raw.githubusercontent.com/AhmedHussein85AH/Resume-generator/main/public/images/screenshots/1.JPG" width="400px" />
-&nbsp;
-<img src="https://raw.githubusercontent.com/AhmedHussein85AH/Resume-generator/main/public/images/screenshots/2.JPG" width="400px" />
-&nbsp;
-<img src="https://raw.githubusercontent.com/AhmedHussein85AH/Resume-generator/main/public/images/screenshots/3.JPG" width="400px" />
+- **Frontend**: React 16.13.1
+- **Styling**: Tailwind CSS 1.4.6
+- **State Management**: React Context API
+- **Internationalization**: React i18next
+- **PDF Generation**: jsPDF
+- **File Handling**: JSZip, File-saver
+- **Pan & Zoom**: React Easy Panzoom
+- **Icons**: React Icons, Material Icons
 
-### Translation
+## 📦 Installation & Setup
 
-To translate the app, just fork the repository, go to `src/i18n/locales` and duplicate the `en.json` file to a new file `your-lang-code.json` and translate all of the strings inside. It's a simple process that would take just a few minutes, and by contributing, your name could also be added down below as a contributor.
+### Prerequisites
+- **Node.js** (v13.12.0 or higher)
+- **npm** (v6.14.4 or higher)
+- **Git** (for cloning)
 
-##### Languages Currently Supported
+### Quick Start
 
-- Arabic (عربى)
-- Czech (čeština)
-- Chinese Simplified (简体中文)
-- Danish (Dansk)
-- Dutch (Nederlands)
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/Resume-generator.git
+   cd Resume-generator
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm start
+   ```
+
+4. **Open your browser**
+   ```
+   http://localhost:3000
+   ```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## 🎮 Usage Guide
+
+### Getting Started
+1. **Open the application** in your browser
+2. **Load demo data** from the Actions tab to see sample content
+3. **Start editing** using the sidebar navigation
+4. **Customize** colors, fonts, and layout as needed
+5. **Export** your resume in your preferred format
+
+### Sidebar Features
+- **👤 Profile** - Personal information and contact details
+- **💼 Experience** - Work history and achievements
+- **🎓 Education** - Academic background and qualifications
+- **⚡ Skills** - Technical and soft skills
+- **🎨 Templates** - Resume design templates
+- **🔤 Fonts** - Typography options
+- **🌈 Colors** - Color scheme customization
+- **⚙️ Actions** - Import/export functionality
+- **📊 Analytics** - Resume statistics and progress
+- **🕒 History** - Version control and backups
+
+### Keyboard Shortcuts
+- **Ctrl + S** - Save resume
+- **Ctrl + P** - Print/Export PDF
+- **Ctrl + E** - Export resume
+- **Escape** - Close sidebar (when not pinned)
+
+## 🌍 Internationalization
+
+The application supports multiple languages. To add a new language:
+
+1. Navigate to `src/i18n/locales/`
+2. Copy `en.json` to `your-language-code.json`
+3. Translate all strings
+4. Submit a pull request
+
+### Supported Languages
 - English (US)
-- Finnish (Suomalainen)
-- French (Français)
-- German (Deutsche)
-- Hindi (हिंदी)
-- Italian (Italiano)
-- Japanese (日本人)
-- Kannada (ಕನ್ನಡ)
-- Norwegian (Norsk)
-- Persian (Farsi)
-- Polish (Polskie)
-- Portuguese (Brazilian)
-- Portuguese (Portugal)
-- Russian (русский)
+- Arabic (عربي)
 - Spanish (Español)
-- Swedish (Svenska)
-- Turkish (Türkçe)
-- Ukrainian (Українська)
+- French (Français)
+- German (Deutsch)
+- And many more...
 
-Thank you to all the amazing people who have contributed by translating it into their native language.
+## 🤝 Contributing
 
-### Installing Pre-requisites
+We welcome contributions! Here's how you can help:
 
-- NodeJS/NPM
+### Development Tasks
+- [ ] Add new resume templates
+- [ ] Implement additional export formats
+- [ ] Enhance analytics features
+- [ ] Improve mobile responsiveness
+- [ ] Add more language translations
+- [ ] Optimize performance
 
-This application needs NodeJs to run. You can download and install NodeJs from the below link on any platform if you do not have it already.
-[Download NodeJS](https://nodejs.org/en/)
+### Contributing Guidelines
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. **Open** a Pull Request
 
-you can also check if you already have NodeJs installed by running the following two commands in terminal window
+## 📸 Screenshots
 
+<div align="center">
+  <img src="public/images/screenshots/main-interface.png" width="400px" alt="Main Interface" />
+  <img src="public/images/screenshots/analytics.png" width="400px" alt="Analytics Dashboard" />
+  <img src="public/images/screenshots/export-options.png" width="400px" alt="Export Options" />
+</div>
+
+## 🏗️ Project Structure
+
+For a detailed breakdown of the project architecture, see [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md).
+
+### Quick Overview
 ```
-node -v
-npm -v
+Resume-generator/
+├── src/
+│   ├── components/          # React components
+│   │   ├── App/            # Main app component
+│   │   ├── FloatingActionMenu/  # Enhanced sidebar with analytics
+│   │   ├── LeftSidebar/    # Profile, work, education, skills
+│   │   ├── RightSidebar/   # Templates, fonts, colors, actions
+│   │   └── UnifiedSidebar/ # Combined sidebar logic
+│   ├── templates/          # Resume templates and blocks
+│   ├── i18n/              # Internationalization (30+ languages)
+│   ├── context/           # Global state management
+│   ├── shared/            # Reusable components
+│   └── assets/            # Fonts, images, CSS
+├── public/                # Static assets and icons
+└── docs/                 # Documentation
 ```
 
-- Git
-You can use git to be able to easily download the files from github into our computer (unless in step 1, you prefer to download files manually from this github repository)
-[Download Git-Scm](https://git-scm.com/downloads)
+## 🐛 Known Issues
 
-you can also check whether you already have NodeJs installed by running the following command in terminal window
+- Some older browsers may not support all features
+- PDF export quality may vary by browser
+- Large resumes may take longer to process
 
-```
-git --version
-```
+## 🔮 Roadmap
 
-### Building from Source
+### Version 2.0
+- [ ] Advanced template editor
+- [ ] Cloud storage integration
+- [ ] Collaborative editing
+- [ ] AI-powered content suggestions
+- [ ] Advanced analytics dashboard
 
-Want to run your own instance of Resume-generator? You are very much free to do so. Follow 3 easy steps. Open cmd (command prompt/terminal) and follow the steps below:
+### Version 2.1
+- [ ] Mobile app (React Native)
+- [ ] Desktop app (Electron)
+- [ ] Plugin system
+- [ ] Advanced export options
 
-1. First, clone this project repository and go to the cloned folder, by running the below two commands.
+## 📄 License
 
-```
-git clone https://github.com/AhmedHussein85AH/Resume-generator.git
-cd Resume-generator
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-2. Run npm install to install dependencies for the project, like below.
+## 🙏 Acknowledgments
 
-```
-npm install
-```
+- **React Team** - For the amazing framework
+- **Tailwind CSS** - For the utility-first CSS framework
+- **Contributors** - All the amazing people who helped improve this project
+- **Open Source Community** - For the inspiration and support
 
-3. Run `npm run start` to run the development server or `npm run build` to build the production app.
+## 📞 Support & Contact
 
-```
-npm run start
-```
-
-And that's it! 🎉
-
-### Contribute
-
-I try to do what I can, but if you found the app helpful, please consider contributing to it. Here is a list of TODOs:
-
-1. Remove all json syntaxes and make the data structure totally structured data. Currently resume data are on structured data, but theme data are in json.
-
-2. Build more fields to leverage the full power of structured data. Right now, only a handful of fields are added to the resume, but we can have much more, like the sample structured data resume you can find under skill repository.
-
-3. Remove warnings. There are a few warnings by node.
-
-4. There are some erros due to missing fields by google structral data testing tool. Those fields need to be added.
-
-### Appreciation
-
-Thank you to everyone who made this project possible, including the many users who voiced their opinions during Resume-generator project, and helped us along the way to make this a reality.
-
-<img src="https://raw.githubusercontent.com/AhmedHussein85AH/Resume-generator/main/public/images/Mitacs.png" width="60px" /> [Mitacs](https://www.mitacs.ca/) for funding the project
-
-<img src="https://raw.githubusercontent.com/AhmedHussein85AH/Resume-generator/main/public/images/DXC.jpg" width="60px" /> [Direction X Corporation](https://directionx.ca) for co-funding and managing the project
-
-<img src="https://raw.githubusercontent.com/AhmedHussein85AH/Resume-generator/main/public/images/shiri.jpg" width="60px" /> [Dr. Nematollah Shiri](https://www.concordia.ca/ginacody/computer-science-software-eng/faculty.html?fpid=nematollaah-shiri) for contributing to the research of the project
-
-<img src="https://crowdin-static.downloads.crowdin.com/avatar/14158753/large/e36727872f9ce95f97b0a7e49cb28667.jpeg" width="60px" /> [Ahmed Hussein ](https://github.com/Ahmed Hussein) for [Reactive-Resume Project](https://github.com/Ahmed Hussein/Reactive-Resume), which lab-web is heavily based on. We modified the base code to accommodate for structured data instead of original json format, and also added cool features that are only attainable with structured data.
+- **Issues**: [GitHub Issues](https://github.com/your-username/Resume-generator/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/your-username/Resume-generator/discussions)
+- **Email**: your-email@example.com
 
 ---
 
-## Professional Development Standards
-
-This project follows the **Lost&FoundGuard** development standards:
-
-- ✅ **Comprehensive notification system** with toast notifications and real-time updates
-- ✅ **Beautiful animations** including hover effects, entrance animations, and floating effects
-- ✅ **Professional branding** with proper copyright attribution
-- ✅ **Comprehensive documentation** including README, user guides, and FAQ sections
-- ✅ **Role-based access control** with proper permission systems
-- ✅ **Professional design system** with gradient backgrounds and responsive design
-- ✅ **Modular component architecture** with proper TypeScript typing
-- ✅ **Professional contact integration** with direct contact buttons
-
----
-
-## Contact & Support
-
-**Developer**: Ahmed Hussein  
-**Location**: Alexandria, Egypt  
-**LinkedIn**: [www.linkedin.com/in/ahmed-h-6331a0289](https://www.linkedin.com/in/ahmed-h-6331a0289)  
-**Email**: ahmed.hussein@example.com
-
-For technical support, feature requests, or collaboration opportunities, please reach out through LinkedIn or email.
-
----
-
-## Copyright Notice
-
-© 2024 Ahmed Hussein. All rights reserved.
-
-This project is developed and maintained by Ahmed Hussein, Security Coordinator, following professional development standards and best practices. The application respects user privacy and provides comprehensive administrative coordination tools.
-
-**Happy Use!** 🚀
-
----
-
-![The Great Gatsby](https://camo.githubusercontent.com/a615c7e1ef9a850f5427cdc153186763305bb853/68747470733a2f2f692e696d6775722e636f6d2f4472386a3569762e676966)
-
-###### Made with Love by [Resume-generator](https://Resume-generator.org/)
+<div align="center">
+  <p>Made with ❤️ by the Resume Generator Team</p>
+  <p>⭐ Star this repository if you found it helpful!</p>
+</div>
