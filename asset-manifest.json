@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Resume-generator/static/css/main.7955e3b7.chunk.css",
+    "main.js": "/Resume-generator/static/js/main.2c0cab27.chunk.js",
+    "main.js.map": "/Resume-generator/static/js/main.2c0cab27.chunk.js.map",
+    "runtime-main.js": "/Resume-generator/static/js/runtime-main.0fb00eb9.js",
+    "runtime-main.js.map": "/Resume-generator/static/js/runtime-main.0fb00eb9.js.map",
+    "static/css/2.1781c263.chunk.css": "/Resume-generator/static/css/2.1781c263.chunk.css",
+    "static/js/2.6142c789.chunk.js": "/Resume-generator/static/js/2.6142c789.chunk.js",
+    "static/js/2.6142c789.chunk.js.map": "/Resume-generator/static/js/2.6142c789.chunk.js.map",
+    "index.html": "/Resume-generator/index.html",
+    "precache-manifest.6ecb2210a7d5f5eeb76fa2b87a6039b9.js": "/Resume-generator/precache-manifest.6ecb2210a7d5f5eeb76fa2b87a6039b9.js",
+    "service-worker.js": "/Resume-generator/service-worker.js",
+    "static/css/2.1781c263.chunk.css.map": "/Resume-generator/static/css/2.1781c263.chunk.css.map",
+    "static/css/main.7955e3b7.chunk.css.map": "/Resume-generator/static/css/main.7955e3b7.chunk.css.map",
+    "static/js/2.6142c789.chunk.js.LICENSE.txt": "/Resume-generator/static/js/2.6142c789.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Resume-generator/static/media/Ubuntu-700.b91fae46.woff2",
+    "static/media/getFetch.cjs": "/Resume-generator/static/media/getFetch.013f0b90.cjs",
+    "static/media/panzoom.mp4": "/Resume-generator/static/media/panzoom.e912bae3.mp4",
+    "static/media/preview.png": "/Resume-generator/static/media/preview.f1f46a82.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0fb00eb9.js",
+    "static/css/2.1781c263.chunk.css",
+    "static/js/2.6142c789.chunk.js",
+    "static/css/main.7955e3b7.chunk.css",
+    "static/js/main.2c0cab27.chunk.js"
+  ]
+}
