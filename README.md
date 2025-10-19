@@ -13,7 +13,7 @@
 
 ## 🚀 Live Demo
 
-**[Try the Resume Generator Now](https://your-username.github.io/Resume-generator/)**
+**[Try the Resume Generator Now](https://ahmedhussein85ah.github.io/Resume-generator/)**
 
 > **Note**: Click on the sidebar menu, go to "Actions" tab, and click "Load Demo Data" to see the application with sample data.
 
@@ -227,6 +227,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <p>Made with ❤️ by the Resume Generator Team</p>
+  <p>Made with ❤️ by Ahmed Hussein Security coordinator</p>
   <p>⭐ Star this repository if you found it helpful!</p>
 </div>
